@@ -1,10 +1,10 @@
-// let subs: number | string = 12;
-// let apiRequest: "pending" | "success" | "failed" = "pending";
-// apiRequest = "pending";
+let subs: number | string = 12;
+let apiRequest: "pending" | "success" | "failed" = "pending";
+apiRequest = "pending";
 
-// let airlines: "seated" | "standing";
+let airlines: "seated" | "standing";
 
-// airlines = "seated";
+airlines = "seated";
 
 // in unions we can use methods that are common to all types in union
 // in union we can define anyvarable type as union of array and other types
