@@ -30,3 +30,42 @@ newValue = 123;
 if (typeof newValue === "string") {
   newValue.toUpperCase();
 }
+
+// try {
+//   throw new Error("Something went wrong");
+// } catch (error) {
+//   if (error instanceof Error) {
+//     console.log(error.message);
+//   }
+// }
+
+// const data: unknown = "code with chai";
+// const strdata: string = data as string;
+
+// type guard
+
+type Role = "admin" | "user";
+function redirect(role: Role): void {
+  if (role == "admin") {
+    console.log("user direct hogay admin per");
+    return;
+  }
+
+  if (role == "user") {
+    console.log("user direct hogay user per");
+    return;
+  }
+  role;
+}
+
+// .when you hover on the role it will show never beacause it is not covered in any of the if conditions and any other role is not defines outside above two one
+
+// type chaiorder = {
+//   type: string;
+//   sugar: number;
+//   strong: boolean;
+// };
+
+// function makechai(order: chaiorder) {
+//   console.log(order);
+// }
