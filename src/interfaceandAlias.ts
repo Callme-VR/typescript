@@ -33,3 +33,5 @@ const configuration: config = {
 };
 
 // configuration.Appname = "Xsigner.ai";
+
+// Alias example
